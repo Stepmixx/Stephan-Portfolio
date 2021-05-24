@@ -36,16 +36,16 @@
 
     <section id="about">
       <p>
-        I’m Stephan Calderin. from Margarita island, Venezuela. I was studing
-        Systems Ingeneering at college and drop it off in half way because of
-        the pandemic, then I discovered and started learning in freeCodeCamp.
+        I am Stephan Calderin, I live in Margarita Island, Venezuela, I study
+        systems engineering, but I put it on hiatus due to the pandemic, in the
+        meantime I am studying at freeCodeCamp.
       </p>
       <h2>Skills</h2>
       <h3>UX/UI</h3>
       <div id="skills-imgs-container">
-        <div id="html-container">
+        <div class="skill-container" id="html-container">
           <h4>HTML5</h4>
-          <div class="skill-container" id="html-img">
+          <div id="html-img">
             <img src="./img/html5-logo.svg" alt="html5-logo" />
           </div>
         </div>
@@ -61,82 +61,97 @@
 
     <section id="projects">
       <h2>Projects</h2>
-      <a
-        href="https://codepen.io/stepmixx/details/LYNmPYd"
-        target="_blank"
-        class="project project-tile"
-      >
-        <h3>Stan Lee Tribute Page</h3>
-        <img
-          class="project-image"
-          src="https://stepmixx.github.io/Stephan-Portfolio/img/stan-lee-tribute.png"
-          alt="stan-lee-tribute"
-        />
-      </a>
+      <div id="projects-container">
+        <a
+          href="https://codepen.io/stepmixx/details/LYNmPYd"
+          target="_blank"
+          class="project project-tile"
+        >
+          <h3>Stan Lee Tribute Page</h3>
+          <img
+            class="project-image"
+            src="https://stepmixx.github.io/Stephan-Portfolio/img/stan-lee-tribute.png"
+            alt="stan-lee-tribute"
+          />
+        </a>
 
-      <a
-        href="https://codepen.io/stepmixx/details/abJJmVz"
-        target="_blank"
-        class="project project-tile"
-      >
-        <h3>Workout Survey Form</h3>
-        <img
-          class="project-image"
-          src="https://stepmixx.github.io/Stephan-Portfolio/img/workout-form.png"
-          alt="workout-form"
-        />
-      </a>
+        <a
+          href="https://codepen.io/stepmixx/details/abJJmVz"
+          target="_blank"
+          class="project project-tile"
+        >
+          <h3>Workout Survey Form</h3>
+          <img
+            class="project-image"
+            src="https://stepmixx.github.io/Stephan-Portfolio/img/workout-form.png"
+            alt="workout-form"
+          />
+        </a>
 
-      <a
-        href="https://codepen.io/stepmixx/pen/KKWWxYE"
-        target="_blank"
-        class="project project-tile"
-      >
-        <h3>TT Rackets Landing Page</h3>
-        <img
-          class="project-image"
-          src="https://stepmixx.github.io/Stephan-Portfolio/img/tt-rackets.png"
-          alt="tt-rackets"
-        />
-      </a>
+        <a
+          href="https://codepen.io/stepmixx/pen/KKWWxYE"
+          target="_blank"
+          class="project project-tile"
+        >
+          <h3>TT Rackets Landing Page</h3>
+          <img
+            class="project-image"
+            src="https://stepmixx.github.io/Stephan-Portfolio/img/tt-rackets.png"
+            alt="tt-rackets"
+          />
+        </a>
 
-      <a
-        href="https://codepen.io/stepmixx/pen/MWJNNPy"
-        target="_blank"
-        class="project project-tile"
-      >
-        <h3>Git Technical Documentation Page</h3>
-        <img
-          class="project-image"
-          src="https://stepmixx.github.io/Stephan-Portfolio/img/git-documentation.png"
-          alt="git-documentation"
-        />
-      </a>
+        <a
+          href="https://codepen.io/stepmixx/pen/MWJNNPy"
+          target="_blank"
+          class="project project-tile"
+        >
+          <h3>Git Technical Documentation Page</h3>
+          <img
+            class="project-image"
+            src="https://stepmixx.github.io/Stephan-Portfolio/img/git-documentation.png"
+            alt="git-documentation"
+          />
+        </a>
+      </div>
     </section>
 
     <footer>
-      <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <label for="email">Email</label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Enter your email"
-        />
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
 
-        <textarea
-          name="message"
-          id="message"
-          placeholder="Enter your message..."
-        ></textarea>
-        <input id="submit" type="submit" />
-      </form>
-      <div id="contact-links">
-        <a id="profile-link" href=""><i class="fab fa-github"></i></a>
-        <a href=""><i class="fab fa-free-code-camp"></i></a>
-        <a href=""><i class="fab fa-codepen"></i></a>
-      </div>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Enter your message..."
+          ></textarea>
+          <input id="submit" type="submit" />
+        </form>
+        <div id="social-media">
+          <a
+            target="_blank"
+            id="profile-link"
+            href="https://github.com/Stepmixx"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a target="_blank" href="https://www.freecodecamp.org/stepmix"
+            ><i class="fab fa-free-code-camp"></i
+          ></a>
+          <a target="_blank" href="https://codepen.io/stepmixx"
+            ><i class="fab fa-codepen"></i
+          ></a>
+        </div>
+      </section>
       <p>Copyright © 2021 Stephan Calderin. All rights reserved.</p>
     </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
