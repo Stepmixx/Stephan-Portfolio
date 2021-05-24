@@ -107,6 +107,7 @@ nav {
   align-items: center;
   justify-content: center;
   position: fixed;
+  z-index: 1;
 }
 
 nav p {
@@ -150,6 +151,7 @@ ul a:hover {
 }
 
 #welcome-section {
+  position: relative;
   height: 100vh;
   width: 100vw;
   background: linear-gradient(
@@ -171,26 +173,19 @@ ul a:hover {
   font-size: 4rem;
 }
 
-#welcome-section {
+#welcome-section p {
   font-family: Days One;
   color: #ffd97b;
   font-size: 1.875rem;
 }
 
-#welcome-section form {
+#welcome-section a {
   position: absolute;
   bottom: 0;
   margin-bottom: 20px;
 }
 
-#welcome-section button {
-  width: 100%;
-  border: none;
-  background: none;
-  cursor: pointer;
-}
-
-#welcome-section form:hover {
+#welcome-section a:hover {
   margin-bottom: 30px;
 }
 
