@@ -413,12 +413,12 @@ footer {
 #social-media a {
   text-decoration: none;
   color: #ffd97b;
-  font-size: 1.875rem;
+  font-size: 3.125rem;
 }
 
 #social-media a:hover {
   color: #f4a261;
-  font-size: 2rem;
+  font-size: 3.25rem;
 }
 
 footer p {
@@ -474,14 +474,6 @@ footer p {
 
   #projects a h3 {
     font-size: 1.15rem;
-  }
-
-  #social-media a {
-    font-size: 3.125rem;
-  }
-
-  #social-media a:hover {
-    font-size: 3.25rem;
   }
 }
 
